@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(../../img/studio.png);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    backdrop-filter:blur(6px);
+    
+    
+    
+    
+  }
+  main{
+    padding: 100px 200px;
+
+  }
+  nav{
+      background-color: rgba(4, 6, 37, 1);
+  }
+  /* My Contacts Section */
+  .my-contacts{
+  height: 400px;
+  width: 800px;
+  display: block;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  border-style: double;
+  border-color: rgba(212, 175, 55, 1);
+  border-radius: 5px;
+  backdrop-filter: blur(8px);
+  text-align: center;
+  padding: 50px 50px  50px;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+
+      
+}
+
+
+/* Media Query */
+@media (max-width: 800px) {
+  .my-contacts{
+    padding: 100px;
+
+  }
+/* skills SECTION  */
+@media (max-width: 900px){
+  .my-contacts{
+    display: block;
+    padding: 100px 50px;
+  }
+  
